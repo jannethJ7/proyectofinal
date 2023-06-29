@@ -42,7 +42,7 @@ CREATE TABLE `movimientos` (
 # Data for table "movimientos"
 #
 
-INSERT INTO `movimientos` VALUES (1,250,'2021-03-13','DEPOSITO',1),(2,100,'2021-03-13','RETIRO',2),(3,250,'2022-12-03','RETIRO',3),(4,200,'2022-12-03','DEPOSITO',4),(5,60,'2022-12-03','RETIRO',4);
+INSERT INTO `movimientos` VALUES (1,250,'2023-03-13','DEPOSITO',1),(2,100,'2023-03-13','RETIRO',2);
 
 #
 # Structure for table "reg_cuentas"
@@ -63,7 +63,7 @@ CREATE TABLE `reg_cuentas` (
 # Data for table "reg_cuentas"
 #
 
-INSERT INTO `reg_cuentas` VALUES (1,200,'2021-03-13',1),(2,500,'2021-08-06',2),(3,450,'2022-12-03',1),(4,400,'2022-12-03',2),(5,6000,'2022-12-03',3),(6,5750,'2022-12-03',3),(7,9000,'2022-12-03',4),(8,9200,'2022-12-03',4),(9,9140,'2022-12-03',4);
+INSERT INTO `reg_cuentas` VALUES (1,200,'2023-03-13',1),(2,500,'2023-08-06',2),(3,450,'2023-12-03',1),(4,400,'2023-12-03',2));
 
 #
 # Structure for table "usuarios"
@@ -85,7 +85,7 @@ CREATE TABLE `usuarios` (
 # Data for table "usuarios"
 #
 
-INSERT INTO `usuarios` VALUES (1,'ACARRASCO','5e0d3816c2bd0ce33f412ff94bda4959dad4257c','CLIENTE',1),(2,'JQUISPE','c20680a918bf371b299b65f06e831ef0e5e1472d','CLIENTE',2),(3,'FQuenta','394f9e07b5131f6fb50663535baf318dfbe97029','CLIENTE',3),(4,'FQUENTA','394f9e07b5131f6fb50663535baf318dfbe97029','CLIENTE',4);
+INSERT INTO `usuarios` VALUES (1,'JANNETH','1234','CLIENTE',1),(2,'JQUISPE','12356','CLIENTE',2),(3,'FQuenta','394f9e07','CLIENTE',3),(4,'FQUENTA','97029','CLIENTE',4);
 
 #
 # Trigger "Reg_Movs"
